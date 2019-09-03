@@ -1,7 +1,7 @@
 <?php require '../inc/header-no-navbar.php'; ?>
 	<div class="container py-3">
 		<p class="h2">Registration Form (Description)</p>
-        <?php require 'merge-register-nav.php'; ?>
+        <?php require 'inc/merge-register-nav.php'; ?>
 
 		<div class="row py-3 ">
 			<div class="col-sm">
@@ -13,7 +13,7 @@
         <div class="row py-3 d-flex justify-content-end">       
 	         <a href="portfolio.php" class="btn btn-outline-secondary ml-3">Previous</a>
 	         <a href="register.php" class="btn btn-outline-primary ml-3">Next</a>
-	         <?php require 'merge-register-button.php' ?>
+	         <?php require 'inc/merge-register-button.php' ?>
 	    </div>
 	</div>
 

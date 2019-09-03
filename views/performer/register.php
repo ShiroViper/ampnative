@@ -2,7 +2,7 @@
     <div class="container py-3">
         <div>
             <p class="h2">Registration Form (Personal)</p>
-            <?php require 'merge-register-nav.php'; ?>
+            <?php require 'inc/merge-register-nav.php'; ?>
         
             <form action="#" method="POST" enctype="multipart/form-data">
                 <div class="row mt-5">
@@ -48,7 +48,7 @@
                         <div class="row py-3 d-flex justify-content-end">       
                              <a href="description.php" class="btn btn-outline-secondary ml-3">Previous</a>
                              <a href="portfolio.php" class="btn btn-outline-primary ml-3">Next</a>
-                             <?php require 'merge-register-button.php' ?>
+                             <?php require 'inc/merge-register-button.php' ?>
                         </div>
 
                     </div>

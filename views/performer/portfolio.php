@@ -1,7 +1,7 @@
 <?php require '../inc/header-no-navbar.php'; ?>
 	<div class="container py-3">
 		<p class="h2">Registration Form (Portfolio)</p>
-        <?php require 'merge-register-nav.php'; ?>
+        <?php require 'inc/merge-register-nav.php'; ?>
 
 		<div class="row py-3">
 			<?php for($x=0; $x<3; $x++){ ?>			
@@ -25,7 +25,7 @@
             </div>
 			 <a href="register.php" class="btn btn-outline-secondary ml-3">Previous</a>
 			 <a href="description.php" class="btn btn-outline-primary ml-3">Next</a>
-			 <?php require 'merge-register-button.php' ?>
+			 <?php require 'inc/merge-register-button.php' ?>
 		</div>
 	</div>
 <?php require '../inc/footer.php'; ?>
