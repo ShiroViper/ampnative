@@ -7,6 +7,8 @@
 	<link rel="stylesheet" href="../../assets/css/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="../../assets/css/bootstrap-reboot.min.css">
 	<link rel="stylesheet" href="../../assets/css/custom.css">
+	<link rel="stylesheet" type="text/css" href="../../assets/api/DataTables/datatables.css">
+	<link rel="stylesheet" type="text/css" href="../../assets/api/DataTables/DataTables-1.10.18/css/dataTables.bootstrap4.css">
 </head>
 <body>
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded-bottom">
@@ -28,13 +30,16 @@
 			            <a class="nav-link" href="#">Events</a>
 		            </li>
 		            <li class="nav-item">
-			            <a class="nav-link" href="#">History</a>
+			            <a class="nav-link" href="history.php">History</a>
 		            </li>
 		            <li class="nav-item">
 			            <a href="register.php" class="nav-link text-warning">Beta! Registration</a>
 		            </li>
 		            <li class="nav-item">
 			            <a href="package.php" class="nav-link text-warning">Packages</a>
+		            </li>
+		            <li class="nav-item">
+			            <a href="pricing.php" class="nav-link text-warning">Pricing</a>
 		            </li>
 		        </ul>
 		        <form class="form-inline my-2 my-lg-0">

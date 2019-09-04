@@ -5,7 +5,7 @@
 
 		<div class="row py-3 ">
 			<div class="col-sm">
-				<label for="editor1" class="text-primary ">Input Service Description</label>
+				<label for="editor1" class="text-muted ">Input Service Description</label>
 				<textarea name="desc" class="" id="editor1" cols="30" rows="10"></textarea>
 			</div>
 		</div>
