@@ -3,11 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title><?php echo $title; ?></title>
-	<!-- <link rel="stylesheet" href="../../assets/css/bootstrap.min.css"> -->
-	<link rel="stylesheet" href="../../assets/css/bootstrap-grid.min.css">
-	<link rel="stylesheet" href="../../assets/css/bootstrap-reboot.min.css">
-	<link rel="stylesheet" href="../../assets/css/custom.css">
-	<link rel="stylesheet" href="../../assets/css/bootstrap-flatly.css">
+	<!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="assets/css/custom.css">
+	<link rel="stylesheet" href="assets/css/bootstrap-flatly.css">
 </head>
 <body>
 		<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded-bottom">

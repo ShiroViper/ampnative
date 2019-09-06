@@ -1,3 +1,4 @@
+<?php $title='Service/Performer Registration' ?>
 <?php require '../inc/header-no-navbar.php'; ?>
 	<div class="container py-3">
 		<p class="h2">Registration Form (Description)</p>

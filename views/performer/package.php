@@ -13,7 +13,7 @@
 			<?php } ?>
 		</div>
 
-		<div class="col-sm py-1 text-center border border-primary">
+		<div class="col-sm py-1 text-center border-3">
 			<p class="h3 ">Enterprise</p>
 			<div class=" pt-3">
 				<img src="../../assets/img/artist.png" height="100" width="150" alt="">

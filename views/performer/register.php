@@ -1,3 +1,4 @@
+<?php $title='Service/Performer Registration' ?>
 <?php require '../inc/header-no-navbar.php'; ?>
     <div class="container py-3">
         <div>
@@ -41,7 +42,7 @@
                             <label for="">Add Profile Picture</label>                            
                             <div class="custom-file">
                                 <input type="file" class="custom-file-input" id="customFile">
-                                <label class="custom-file-label" for="customFile"></label>
+                                <label  class="custom-file-label" for="customFile">Choose Photo</label>
                             </div>
                         </div>
 

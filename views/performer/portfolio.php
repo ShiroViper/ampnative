@@ -1,3 +1,4 @@
+<?php $title='Service/Performer Registration' ?>
 <?php require '../inc/header-no-navbar.php'; ?>
 	<div class="container py-3">
 		<p class="h2">Registration Form (Portfolio)</p>
@@ -21,7 +22,7 @@
 		<div class="row py-3 d-flex justify-content-end">       
             <div class="custom-file col-sm-2">
                 <input type="file" class="custom-file-input" id="customFile">
-                <label class="custom-file-label" for="customFile"></label>
+                <label class="custom-file-label" for="customFile">Choose Photo</label>
             </div>
 			 <a href="register.php" class="btn btn-outline-secondary ml-3">Previous</a>
 			 <a href="description.php" class="btn btn-outline-primary ml-3">Next</a>

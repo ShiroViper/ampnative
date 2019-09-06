@@ -2,18 +2,19 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>AMPLIFIER</title>
-	<link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+	<title><?php echo $title ?></title>
+	<!-- <link rel="stylesheet" href="../../assets/css/bootstrap.min.css"> -->
 	<link rel="stylesheet" href="../../assets/css/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="../../assets/css/bootstrap-reboot.min.css">
 	<link rel="stylesheet" href="../../assets/css/custom.css">
 	<link rel="stylesheet" type="text/css" href="../../assets/api/DataTables/datatables.css">
 	<link rel="stylesheet" type="text/css" href="../../assets/api/DataTables/DataTables-1.10.18/css/dataTables.bootstrap4.css">
+	<link rel="stylesheet" href="../../assets/css/bootstrap-flatly.css">
 </head>
 <body>
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded-bottom">
 		    <div class="container">
-		        <a class="navbar-brand" href="register.php">AMPLIFIER</a>
+		        <a class="navbar-brand" href="../../index.php">AMPLIFIER</a>
 		        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		        <span class="navbar-toggler-icon"></span>
 		        </button>
@@ -49,4 +50,5 @@
 		        </div>
 		    </div>
 		  </nav>
+		  <!-- <?php require '../../inc/user.php'; ?> -->
 
