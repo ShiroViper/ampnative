@@ -1,3 +1,4 @@
+<?php $title="Service History: AMPLIFIER"; ?>
 <?php require '../inc/header.php'; ?>
 	<div class="container">
 		<p class="h1 yellow-brown py-3 text-center">BOOKINGS</p>
@@ -10,7 +11,8 @@
                 <th>Schedule</th>
                 <th>Status</th>
                 <th>Event Type</th>
-                <th>Action</th>
+                <th class="text-center">Action</th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
@@ -38,8 +40,13 @@
 	                <td>
 	                	<u class="yellow-brown font-weight-bold">SCHOOL EVENT</u>
 	                </td>
+	                <td class="d-flex justify-content-center ">
+	                	<a href="#" class="btn btn-outline-success mr-2 " data-toggle="tooltip" data-placement="top" title="Accept"><i class="fas fa-check "></i></a>
+	                	<a href="#" class="btn btn-outline-danger mr-2 " data-toggle="tooltip" data-placement="top" title="Decline"><i class="fas fa-times "></i></a>
+	                	<a href="#" class="btn btn-outline-primary " data-toggle="tooltip" data-placement="top" title="Edit user.. this should be dynamic!"><i class="far fa-edit "></i></a>
+	                </td>
 	                <td>
-	                	<a href="#" class="btn btn-outline-primary">Edit</a>
+	                	<a href="#" class="btn btn-outline-info" data-toggle="tooltip" data-placement="top" title="Redirect to https.. this should be dynamic!"><i class="fas fa-external-link-alt "></i></a>
 	                </td>
 	            </tr>
 
@@ -52,7 +59,8 @@
                 <th>Schedule</th>
                 <th>Status</th>
                 <th>Event Type</th>
-                <th>Action</th>
+                <th class="text-center">Action</th>
+                <th></th>
             </tr>
         </tfoot>
     </table>

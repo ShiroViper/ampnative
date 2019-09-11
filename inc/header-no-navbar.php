@@ -8,6 +8,18 @@
 	<link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
 	<link rel="stylesheet" href="assets/css/custom.css">
 	<link rel="stylesheet" href="assets/css/bootstrap-flatly.css">
+
+	<link rel="stylesheet" href="assets/api/fontawesome/css/all.css">
+	<script defer src="assets/api/fontawesome/js/all.js"></script>
+	<script defer src="assets/api/fontawesome/js/brands.js"></script>
+	<script defer src="assets/api/fontawesome/js/solid.js"></script>
+	<script defer src="assets/api/fontawesome/js/fontawesome.js"></script>
+	
+	<link href="assets/api/fontawesome/css/fontawesome.css" rel="stylesheet">
+	<link href="assets/api/fontawesome/css/brands.css" rel="stylesheet">
+	<link href="assets/api/fontawesome/css/solid.css" rel="stylesheet">
+
+	<!-- <link rel="stylesheet" href="assets/css/bootstrap-materia.css"> -->
 </head>
 <body>
 		<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded-bottom">

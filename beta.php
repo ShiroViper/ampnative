@@ -10,7 +10,7 @@
 				<a class="btn btn-outline-primary" href="views/performer/register.php">Service/Performer</a>
 			</div>
 			<div class="col-sm">
-				<a class="btn btn-outline-info" href="#">Admin <span class="text-danger">N/A</span></a>
+				<a class="btn btn-outline-info" href="#">Admin <span class="text-danger">N/A</span> <i class="fas fa-beer"></i> </a>
 			</div>
 		</div>
 	</div>

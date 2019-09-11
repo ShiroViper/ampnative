@@ -18,6 +18,13 @@
 					<input type="email" class="form-control is-invalid" name="email" placeholder="Email Address">
 				</div>
 			</div>
+			
+			<!-- <div class="form-group has-success">
+			  <label class="form-control-label" for="inputSuccess1">Valid input</label>
+			  <input type="text" value="correct value" class="form-control is-valid" id="inputValid">
+			  <div class="valid-feedback">Success! You've done it.</div>
+			</div> -->
+
 			<div class="col-sm py-3">
 				<div class="form-group">
 					<input type="text" class="form-control is-invalid" name="uname" placeholder="UserName">

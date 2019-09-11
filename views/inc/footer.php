@@ -10,6 +10,7 @@
 	<script type="text/javascript" charset="utf8" src="../../assets/api/DataTables/DataTables-1.10.18/js/dataTables.bootstrap4.min.js"></script>
 	<script type="text/javascript" charset="utf8" src="../../assets/api/DataTables/DataTables-1.10.18/js/jquery.dataTables.min.js"></script>
 	<script type="text/javascript" charset="utf8" src="../../assets/api/DataTables/datatables.js"></script>
+	<script src="../../assets/js/custom.js"></script>
 
 	<script>
 	    // Replace the <textarea id="editor1"> with a CKEditor
@@ -18,7 +19,22 @@
 
 	    // For dataTable
 		$(document).ready(function() {
-		    $('#example').DataTable();
+		    $('#example').DataTable( {     
+		        // ajax: 'https://api.myjson.com/bins/qgcu',
+		        // drawCallback: function(settings){
+		        //     var api = this.api();
+		            
+		        //     /* Add some tooltips for demonstration purposes */
+		        //     $('td', api.table().container()).each(function () {
+		        //        $(this).attr('title', $(this).text());
+		        //     });
+
+		        //     /* Apply the tooltips */
+		        //     $('td', api.table().container()).tooltip({
+		        //        container: 'body'
+		        //     });          
+		        // }  
+		    });
 		} );
 
 		// File Input
@@ -27,6 +43,10 @@
 		  var fileName = $(this).val().split("\\").pop();
 		  $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
 		});
+
+		$(function () {
+		  $('[data-toggle="tooltip"]').tooltip()
+		})
 	</script>
 </body>
 </html>

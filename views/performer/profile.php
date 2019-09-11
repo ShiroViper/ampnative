@@ -1,3 +1,4 @@
+<?php $title="Service Profile: AMPLIFIER"; ?>
 <?php require '../inc/header.php'; ?>
 
 <div class="container">
@@ -23,7 +24,7 @@
 					<p class="text-muted">DYNACOM/CLIENT</p>
 					<p class="yellow-brown">g established fact that a reader will be distracted by the readable content of a page </p>
 					<div class="d-flex justify-content-center">
-						<a href="" class="btn btn-outline-dark">View</a>
+						<a href="" class="btn btn-outline-primary">View</a>
 					</div>
 				</div>
 			</div>
@@ -38,7 +39,7 @@
 					<p class="text-muted">LOREM IPSUM DOLOR</p>
 					<p class="yellow-brown">g established fact that a reader will be distracted by the readable content of a page </p>
 					<div class="d-flex justify-content-center">
-						<a href="" class="btn btn-outline-dark">View</a>
+						<a href="" class="btn btn-outline-primary">View</a>
 					</div>
 				</div>
 			</div>

@@ -1,3 +1,4 @@
+<?php $title = 'Service Price Rates: AMPLIFIER'; ?>
 <?php require '../inc/header.php'; ?>
 <div class="container">
 	<p class="h1 yellow-brown text-center py-3">PRICE RATES/ PACKAGES</p>
